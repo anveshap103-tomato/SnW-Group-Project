@@ -4,7 +4,7 @@ A collaborative project created by the SNW group, focusing on building a structu
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 This project demonstrates core web development concepts including:
 - HTML page structure  
 - Responsive CSS layouts  
@@ -14,7 +14,7 @@ This project demonstrates core web development concepts including:
 
 ---
 
-## 📌 Features
+##  Features
 - Clean and responsive UI  
 - Modular folder structure  
 - Interactive components using JavaScript  
@@ -23,7 +23,7 @@ This project demonstrates core web development concepts including:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **HTML5**
 - **CSS3**
 - **JavaScript (DOM Manipulation)**
