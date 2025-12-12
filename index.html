@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PodCircuit | Discover. Stream. Connect.</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">PodCircuit<span class="dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#podcasts" class="nav-link">Podcasts</a></li>
+                <li><a href="#categories" class="nav-link">Categories</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="btn-primary mobile-hide">Start Listening</button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-bg"></div>
+            <div class="container hero-content">
+                <h1 class="hero-title">
+                    <span class="reveal-text">Discover.</span><br>
+                    <span class="reveal-text delay-1">Stream.</span><br>
+                    <span class="reveal-text delay-2">Connect.</span>
+                </h1>
+                <p class="hero-subtitle fade-in delay-3">
+                    Dive into a universe of audio stories. Curated for the curious mind.
+                </p>
+                <a href="#podcasts" class="btn-primary fade-in delay-3">Explore Now</a>
+            </div>
+            <div class="scroll-indicator fade-in delay-4">
+                <span>Scroll</span>
+                <i data-lucide="chevron-down"></i>
+            </div>
+        </section>
+
+        <section id="podcasts" class="trending section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Trending Now</h2>
+                    <p class="section-desc">Handpicked episodes making waves this week.</p>
+                </div>
+                <div class="podcast-grid" id="podcast-grid">
+                    <!-- Dynamic Content -->
+                </div>
+            </div>
+        </section>
+
+        <section id="categories" class="categories section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Browse Categories</h2>
+                </div>
+                <div class="category-grid">
+                    <div class="category-card" data-category="Tech">
+                        <i data-lucide="cpu"></i>
+                        <h3>Tech</h3>
+                    </div>
+                    <div class="category-card" data-category="Self-Help">
+                        <i data-lucide="heart"></i>
+                        <h3>Self-Help</h3>
+                    </div>
+                    <div class="category-card" data-category="News">
+                        <i data-lucide="globe"></i>
+                        <h3>News</h3>
+                    </div>
+                    <div class="category-card" data-category="Stories">
+                        <i data-lucide="book-open"></i>
+                        <h3>Stories</h3>
+                    </div>
+                    <div class="category-card" data-category="Education">
+                        <i data-lucide="graduation-cap"></i>
+                        <h3>Education</h3>
+                    </div>
+                    <div class="category-card" data-category="Motivation">
+                        <i data-lucide="zap"></i>
+                        <h3>Motivation</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="player-wrapper hidden" id="player-wrapper">
+        <div class="player container">
+            <div class="track-info">
+                <img src="" alt="Cover" id="player-cover" class="player-cover">
+                <div class="track-details">
+                    <h4 id="player-title">Select a podcast</h4>
+                    <p id="player-artist">PodCircuit Original</p>
+                </div>
+            </div>
+            
+            <div class="controls-wrapper">
+                <div class="controls">
+                    <button class="control-btn sm" id="prev-btn"><i data-lucide="skip-back"></i></button>
+                    <button class="control-btn play-btn" id="play-pause-btn"><i data-lucide="play"></i></button>
+                    <button class="control-btn sm" id="next-btn"><i data-lucide="skip-forward"></i></button>
+                </div>
+                <div class="progress-bar-wrapper">
+                    <span class="time" id="current-time">0:00</span>
+                    <div class="progress-bar" id="progress-container">
+                        <div class="progress" id="progress"></div>
+                    </div>
+                    <span class="time" id="duration">0:00</span>
+                </div>
+            </div>
+
+            <div class="volume-controls mobile-hide">
+                <i data-lucide="volume-2"></i>
+                <input type="range" min="0" max="1" step="0.1" value="1" class="volume-slider" id="volume-slider">
+            </div>
+        </div>
+        <audio id="audio-element"></audio>
+    </div>
+
+    <footer class="footer" id="contact">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>PodCircuit<span class="dot">.</span></h3>
+                <p>Amplifying voices, one stream at a time.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Submit</a>
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i data-lucide="instagram"></i></a>
+                <a href="#"><i data-lucide="youtube"></i></a>
+                <a href="#"><i data-lucide="music"></i></a>
+            </div>
+        </div>
+        <div class="container copyright">
+            <p>&copy; 2025 PodCircuit. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="./file2.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

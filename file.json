@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "The Curious Mind",
+        "category": "Education",
+        "description": "Deep-dive stories for the curious listener.",
+        "image": "https://i.imgur.com/4ZQZ4LZ.jpeg",
+        "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    },
+    {
+        "id": 2,
+        "title": "Tech Talks Weekly",
+        "category": "Tech",
+        "description": "News, updates, and breakdowns from the tech world.",
+        "image": "https://i.imgur.com/8B2qJ9E.jpeg",
+        "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+    },
+    {
+        "id": 3,
+        "title": "Mind Reset",
+        "category": "Self-Help",
+        "description": "Motivation, habits, and self-growth essentials.",
+        "image": "https://i.imgur.com/5gS4Fbl.jpeg",
+        "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+    }
+]
