@@ -2,6 +2,7 @@
 
 A collaborative project created by the SNW group, focusing on building a structured and functional web solution using HTML, CSS, and JavaScript.
 
+https://podcircuit.netlify.app/
 ---
 
 ##  Project Overview
